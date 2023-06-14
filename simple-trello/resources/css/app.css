@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 1050px) {
+    div.tasks-board {
+        justify-content: start;
+    }
+
+    li.tasks-board-track {
+        /* 100dvh - nav height - ul padding - scrollbar */
+        height: calc(100dvh - 65px - 2rem - 8px);
+    }
+}
